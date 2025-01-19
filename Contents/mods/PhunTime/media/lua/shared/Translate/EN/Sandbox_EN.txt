@@ -1,0 +1,14 @@
+Sandbox_EN = {
+
+    Sandbox_PhunTime = "PhunTime",
+
+    Sandbox_PhunTime_DayOffset = "Day offset",
+    Sandbox_PhunTime_DaySpeed_tooltip = "+/- hours from dawn in which to trigger Day Speed",
+
+    Sandbox_PhunTime_NightSpeed = "Night Speed",
+    Sandbox_PhunTime_NightSpeed_tooltip = "The speed at which night passes",
+
+    Sandbox_PhunTime_NightOffset = "Night offset",
+    Sandbox_PhunTime_NightSpeed_tooltip = "+/- hours from dusk in which to trigger Night Speed",
+
+}

@@ -1,0 +1,31 @@
+VERSION = 1,
+
+option PhunTime.NightSpeed
+{ 
+    type = enum,
+    numValues = 26,
+    default = 3, 
+    page = PhunTime, 
+    translation = PhunTime_NightSpeed,
+    valueTranslation = DayLength,
+}
+
+option PhunTime.NightOffset
+{ 
+    type = integer, 
+    default = 0,
+    min = 0,
+    max = 24,
+    page = PhunTime,
+    translation = PhunTime_NightOffset,
+}
+
+option PhunTime.DayOffset
+{ 
+    type = integer, 
+    default = 0,
+    min = 0,
+    max = 24,
+    page = PhunTime,
+    translation = PhunTime_DayOffset,
+}

@@ -1,6 +1,8 @@
 Sandbox_EN = {
 
     Sandbox_PhunTime = "PhunTime",
+    Sandbox_PhunTime_DaySpeed = "Day Speed",
+    Sandbox_PhunTime_DaySpeed_tooltip = "The speed at which daytime passes",
 
     Sandbox_PhunTime_DayOffset = "Day offset",
     Sandbox_PhunTime_DaySpeed_tooltip = "+/- hours from dawn in which to trigger Day Speed",

@@ -1,4 +1,5 @@
 version=1
+id=3410448986
 title=PhunTime - Separate Night Speed
 description=[H1]Control Time Like A Boss![/H1]
 description=[hr][/hr]
@@ -7,8 +8,7 @@ description=[list][*]Set the length of your nights to be different to that of da
 description=Thats really about it. 
 description=
 description=Probably useless in single player. Made for B41 and techinically B42 ready?
-description=
-description=Coded with love for our awesome [url=https://discord.gg/v2USyAtP6q]PhunZoid[/url] community.
-description=
-description=[url=https://github.com/PhunZoider/PhunTime]Repo and more info[/url]
+description=[url=https://discord.gg/v2USyAtP6q][img]https://i.imgur.com/q2rnXYZ.png[/img][/url]
+description=Coded with love for our awesome [url=https://discord.gg/v2USyAtP6q]PhunZoid[/url] community. [url=https://github.com/PhunZoider/PhunTime]Repo and more info[/url]
+tags=Build 41;Multiplayer
 visibility=public

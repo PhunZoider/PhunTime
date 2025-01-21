@@ -20,6 +20,16 @@ option PhunTime.NightOffset
     translation = PhunTime_NightOffset,
 }
 
+option PhunTime.DaySpeed
+{ 
+    type = enum,
+    numValues = 26,
+    default = 3, 
+    page = PhunTime, 
+    translation = PhunTime_DaySpeed,
+    valueTranslation = DayLength,
+}
+
 option PhunTime.DayOffset
 { 
     type = integer, 

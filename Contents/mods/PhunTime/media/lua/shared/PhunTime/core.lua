@@ -32,6 +32,7 @@ function Core:ini()
         self.inied = true
         self:testNight()
     end
+
 end
 
 function Core:setIsNight(value)
@@ -40,8 +41,11 @@ function Core:setIsNight(value)
         sendServerCommand(Core.name, value and Core.commands.nightTimeStart or Core.commands.daytimeStart, {})
     end
     self.isNight = value
-    getSandboxOptions():getOptionByName("DayLength"):setValue(
-        value and Core.settings.NightSpeed or SandboxVars.DayLength)
+    local speed = Core.settings.DaySpeed
+    if value then
+        speed = Core.settings.NightSpeed
+    end
+    getSandboxOptions():getOptionByName("DayLength"):setValue(speed)
     getSandboxOptions():applySettings()
     triggerEvent(value and self.events.OnNightStart or self.events.OnDayStart)
 
